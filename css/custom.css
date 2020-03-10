@@ -1,0 +1,45 @@
+.nav-item:hover{
+    border-bottom: 1px solid white;
+}
+
+.motto{
+	background: url(../img/6.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mtitle{
+	padding: 150px 20px;
+}
+
+.mtitle h1{
+	font-size: 64px;
+	font-weight: bold;
+}
+
+.mtitle h4{
+	font-size: 44px;
+	font-weight: bold;
+}
+
+.glyph-icon{
+	width:46px;
+	height:46px;
+}
+
+.foo{
+	font-size: 14px;
+}
+
+.his{
+	width: 500px;
+}
+
+@media only screen and (max-width: 650px){
+
+	.his{
+		width: 250px;
+	}
+}
